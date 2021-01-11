@@ -1,0 +1,133 @@
+.contact-section{
+  margin-top: 80px;
+  color: #fff;
+}
+.phones i,
+.emails i{
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid var(--first-color);
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.phones p,
+.emails p{
+  font-size: 20px;
+}
+
+.contact-form{
+  border: 1px solid #ddd ;
+  border-radius: 10px;
+  max-width:925px;
+  margin: auto;
+  padding: 72px 150px 25px 150px;
+  box-shadow: -4px -4px 8px #e0e0e0, 4px 4px 8px #e0e0e0;
+}
+.wrap-input{
+  text-align: center;
+}
+
+
+.contact-form input, .contact-form textarea{
+  width: 80%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: transparent;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  height: 62px;
+  padding: 0 20px 0 23px;
+  outline: none;
+  border: none;
+  box-shadow: -4px -4px 8px #e0e0e0, 4px 4px 8px #e0e0e0;
+}
+.contact-form p{
+  margin-bottom: 30px;
+}
+.contact-form textarea{
+  min-height: 199px;
+  padding: 19px 20px 0 23px;
+}
+.contact-form input:focus, .contact-form textarea:focus{
+  box-shadow: 0 5px 20px 0px rgba(124, 250, 66, 0.3);
+}
+.btn-send{
+  margin: 30px 0!important;
+  padding: 0 20px;
+  min-width: 160px;
+  height: 42px;
+  background-color: var(--first-color);
+  outline: none !important;
+  border-radius: 21px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 10px 30px 0px rgba(124, 212, 89, 0.5);
+ 
+}
+.btn-send:hover{
+  background-color: #000;
+}
+.call-all{
+  margin-top:50px ;
+  color: #aaa;
+}
+
+@media(max-width:991px){
+  .contact-form{
+    padding: 20px;
+  }
+}
+@media(max-width:768px){
+  .contact-form input,.contact-form textarea{
+    width: 100%;
+  }
+}
+/* Start Maps */
+.maps{
+  margin-top: 80px;
+}
+.map-one{
+  box-shadow: -4px -4px 8px #e0e0e0, 4px 4px 8px #e0e0e0;
+  /* border: 1px solid #ddd; */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.icon-map{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid green;
+  color: var(--first-color);
+  text-align: center;
+  margin:auto;
+  margin-bottom: 20px;
+}
+.place{
+  margin-bottom: 20px;
+  display: flex;
+}
+.place img{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.place p{
+  color: var(--first-color);
+} 
+.maps iframe{
+  width: 100%;
+  max-height: 450px;
+}
+/* End Maps */
+
+.section-align {
+  justify-content: center;
+}

@@ -6,6 +6,10 @@
 a{
   text-decoration: none !important;
 }
+.reset{
+  margin-left:0 !important;
+}
+
 body{
     background: url(../img/Background.jpg);
     background-size: cover !important;
@@ -61,6 +65,7 @@ video {
 .navbar{
   background-color: #000;
   color: #fff !important;
+  padding: 0.2rem 1rem !important;
 }
 .navbar .social{
   display: contents;
@@ -68,40 +73,125 @@ video {
 .navbar .social li{
   display: inline-block !important; 
   margin-right: 8px;
+  font-size: 19px;
 }
 .navbar .social a{
   color: #fff !important;
   display: inline block; 
 }
+.fa{
+  transition: all .3s ease-in-out;
+}
+.fa-facebook:hover{
+  color: #4169E1;
+}
+.fa-twitter:hover{
+  color: #58C1FB;
+}
+.fa-google:hover{
+  color: #df0606;
+}
+.fa-instagram:hover{
+  color: #E1398A;
+}
+.fa-pinterest:hover{
+  color: #DF4006;
+}
 /* ENd NavBar */
 
 /* Start  Slider  */
-
+.slider{
+  height: 0 !important;
+}
 .carousel-inner video{
   width: 100%;
-  height: 100%;
+  max-height: 500px;
+  
   /* height: 450px; min-height: 100%; */
 }
-.carousel-inner {
-  width: 100%;
-  height: 450px;
-}
+
 @media (max-width:876px) { 
+  .slider{height: auto;}
   .carousel-inner video{
-    height:850px !important;
+    height: 100vh !important;
   }
  }
 /* End Slider */
 
 /* Start Footer */
 .footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* display: flex; */
+  /* justify-content: space-between; */
   color: #fff;
   font-weight: bold;
   background-color: #000;
+  padding: 8px;
+
 }
+.footer  p{
+  margin-bottom: 0 ;
+}
+.email-footer{
+  text-align: right;
+}
+@media (max-width:876px) { 
+  .footer,.email-footer{
+    text-align: center;
+  }
+ }
 /* End Footer */
+
+/* Loading Screen */
+.spinner-wrapper{
+  width: 100%;
+  height: 100%;
+  background-color: #151515;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.spinner::before,
+.spinner:after{
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.spinner:before {
+  width: 100%;
+  height: 100%;
+  background-image:linear-gradient(90deg, #ff00cc 0%,#333399 100% );
+  animation: spin .5s infinite linear;
+}
+.spinner:after {
+  width: 90%;
+  height: 90%;
+  background-color: #151515;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  to {
+      transform: rotate(360deg);
+  }
+
+}
 

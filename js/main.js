@@ -15,6 +15,19 @@ $(document).ready(function(){
     interval: 500000
   })
 
+   // buttn to scroll top fucntion
+   $(window).scroll(function () {
+    if ($(this).scrollTop() > 40) {
+      $('#topBtn').fadeIn();
+    }
+    else {
+      $('#topBtn').fadeOut();
+    }
+  })
+  // Animtion for scroll on the top
+  $('#topBtn').click(function () {
+    $('html, body').animate({ scrollTop: 0 }, 800)
+  })
 
 
   

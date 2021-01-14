@@ -1,10 +1,42 @@
-.contact-section{
+.section-contact-us{
   margin-top: 80px;
   margin-bottom: 80px;
   color: #fff;
 }
 
-.phones i,
+.form-contact{
+  margin-top: 100px;
+}
+
+.form-contact label{
+  display: block;
+}
+.form-contact input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: #fafafa !important;
+}
+.form-contact textarea{
+  width: 100%;
+  border-radius: 5px;
+}
+.btn{
+  color: #fff;
+  background-color: rgb(190, 41, 41) !important;
+}
+.form-contact input:focus,textarea:focus{
+  background-color: #dbd6d1 !important;
+}
+
+
+
+
+
+
+/* .phones i,
 .emails i{
   font-size: 30px;
   width: 70px;
@@ -105,5 +137,5 @@
 
 .section-align {
   justify-content: center;
-}
+} */
 

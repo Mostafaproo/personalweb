@@ -6,6 +6,9 @@
 a{
   text-decoration: none !important;
 }
+dl, ol, ul{
+  margin-bottom: 0;
+}
 .reset{
   margin-left:0 !important;
 }
@@ -32,6 +35,7 @@ body{
 }
 .top-header a{
   color: inherit;
+  font-size: 13px;
 }
 .top-header .phone{
   margin-right: 20px;

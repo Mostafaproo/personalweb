@@ -1,7 +1,8 @@
 .section-contact-us{
-  margin-top: 80px;
-  margin-bottom: 80px;
-  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #000;
+  background-color: #fff;
 }
 
 .form-contact{
@@ -18,10 +19,13 @@
   border-radius: 5px;
   margin-bottom: 30px;
   background-color: #fafafa !important;
+  outline: none !important;
 }
 .form-contact textarea{
   width: 100%;
   border-radius: 5px;
+  outline: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .btn{
   color: #fff;
@@ -30,7 +34,38 @@
 .form-contact input:focus,textarea:focus{
   background-color: #dbd6d1 !important;
 }
+/* End Section Contact Us */
 
+/* Start About Contact Us */
+.about-us-contact,.widget-contact{
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+.about-title-contact{
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: #484848;
+}
+.text-widget{
+  width: 100%;
+}
+.textwidget li{
+  padding: 6px 0 7px 0;
+}
+.textwidget li a{
+  color: #343434;
+}
+/* End About Contact Us */
 
 
 

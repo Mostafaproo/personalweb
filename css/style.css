@@ -14,13 +14,19 @@ dl, ol, ul{
 }
 
 body{
-    background: url(../img/Background.jpg) fixed;
+    /* background: url(../img/Background.jpg) fixed;
+    background-size: cover !important;
+    background-repeat: no-repeat; */
+    font-family: 'Lato';
+    box-sizing: border-box;
+}
+.wrapping{
+    background: url(../img/Background.jpg);
     background-size: cover !important;
     background-repeat: no-repeat;
     font-family: 'Lato';
     box-sizing: border-box;
 }
-
 /* Start Top Header Style */
 .top-header{
     background-color: #000;

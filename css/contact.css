@@ -4,9 +4,15 @@
   color: #fff;
   /* background-color: #fff; */
 }
+.contact-title{
+  z-index: 22666;
+  position: relative;
+  margin-top: 10px;
+}
 
 .form-contact{
   margin-top: 100px;
+  position: relative;
 }
 
 .form-contact label{
@@ -68,7 +74,19 @@
 /* End About Contact Us */
 
 
-
+.blur{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .7;
+  border-radius: 5px;
+}
+.main-form{
+  z-index: 222;
+}
 
 
 /* .phones i,

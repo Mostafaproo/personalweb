@@ -13,6 +13,7 @@
 .form-contact{
   margin-top: 100px;
   position: relative;
+  max-width: 85%;
 }
 
 .form-contact label{
@@ -47,6 +48,7 @@
   border: 1px solid rgba(0, 0, 0, 0.06);
   padding: 30px;
   margin-bottom: 40px;
+  position: relative;
 }
 .about-title-contact{
   background-color:inherit;
@@ -70,6 +72,7 @@
 }
 .textwidget li a{
   color: #fff;
+  z-index: 22;
 }
 /* End About Contact Us */
 
@@ -79,7 +82,7 @@
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 7%;
   background-color: #000;
   opacity: .7;
   border-radius: 5px;
@@ -87,6 +90,20 @@
 .main-form{
   z-index: 222;
 }
+.main-about{
+  z-index: 222;
+}
+@media (max-width:1068px){
+  .form-contact{
+    max-width: 100% !important;
+  }
+  .blur{
+    width: 100%;
+  }
+}
+
+
+
 
 
 /* .phones i,

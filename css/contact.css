@@ -1,25 +1,27 @@
-.section-contact-us{
+.section-contact-us {
   padding-top: 80px;
   padding-bottom: 80px;
   color: #fff;
   /* background-color: #fff; */
 }
-.contact-title{
+
+.contact-title {
   z-index: 22666;
   position: relative;
   margin-top: 10px;
 }
 
-.form-contact{
+.form-contact {
   margin-top: 100px;
   position: relative;
   max-width: 85%;
 }
 
-.form-contact label{
+.form-contact label {
   display: block;
 }
-.form-contact input{
+
+.form-contact input {
   width: 100%;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -28,30 +30,37 @@
   background-color: #fafafa !important;
   outline: none !important;
 }
-.form-contact textarea{
+
+.form-contact textarea {
   width: 100%;
   border-radius: 5px;
   outline: none !important;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.btn{
+
+.btn {
   color: #fff;
   background-color: rgb(190, 41, 41) !important;
 }
-.form-contact input:focus,textarea:focus{
+
+.form-contact input:focus,
+textarea:focus {
   background-color: #dbd6d1 !important;
 }
+
 /* End Section Contact Us */
 
 /* Start About Contact Us */
-.about-us-contact,.widget-contact{
+.about-us-contact,
+.widget-contact {
   border: 1px solid rgba(0, 0, 0, 0.06);
   padding: 30px;
   margin-bottom: 40px;
   position: relative;
 }
-.about-title-contact{
-  background-color:inherit;
+
+.about-title-contact {
+  background-color: inherit;
   border: 1px solid rgba(0, 0, 0, 0.06);
   font-size: 14px;
   font-weight: 500;
@@ -64,20 +73,24 @@
   text-transform: uppercase;
   color: #fff;
 }
-.text-widget{
+
+.text-widget {
   width: 100%;
 }
-.textwidget li{
+
+.textwidget li {
   padding: 6px 0 7px 0;
 }
-.textwidget li a{
+
+.textwidget li a {
   color: #fff;
   z-index: 22;
 }
+
 /* End About Contact Us */
 
 
-.blur{
+.blur {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -87,125 +100,22 @@
   opacity: .7;
   border-radius: 5px;
 }
-.main-form{
+
+.main-form {
   z-index: 222;
 }
-.main-about{
+
+.main-about {
   z-index: 222;
 }
-@media (max-width:1068px){
-  .form-contact{
+
+@media (max-width:1068px) {
+  .form-contact {
     max-width: 100% !important;
   }
-  .blur{
+
+  .blur {
     width: 100%;
   }
 }
-
-
-
-
-
-/* .phones i,
-.emails i{
-  font-size: 30px;
-  width: 70px;
-  height: 70px;
-  border: 1px solid var(--first-color);
-  border-radius: 50%;
-  padding: 20px;
-  margin-bottom: 50px;
-}
-.phones p,
-.emails p{
-  font-size: 20px;
-}
-
-.contact-form{
-  border: 1px solid #ddd ;
-  border-radius: 10px;
-  max-width:925px;
-  margin: auto;
-  padding: 72px 150px 25px 150px;
-  box-shadow: -4px -4px 8px #e0e0e0, 4px 4px 8px #e0e0e0;
-  position: relative;
-}
-.blur{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #000;
-  z-index: -10;
-  opacity: .7;
-}
-
-
-.wrap-input{
-  text-align: center;
-}
-
-.contact-form input, .contact-form textarea{
-  width: 80%;
-  margin-bottom: 10px;
-  border-radius: 20px;
-  background: transparent;
-  font-size: 16px;
-  color: #fff;
-  line-height: 1.2;
-  height: 62px;
-  padding: 0 20px 0 23px;
-  outline: none;
-  border: none;
-  box-shadow: -4px -4px 8px #e0e0e0, 4px 4px 8px #e0e0e0;
-}
-.contact-form p{
-  margin-bottom: 30px;
-}
-.contact-form textarea{
-  min-height: 199px;
-  padding: 19px 20px 0 23px;
-}
-.contact-form input:focus, .contact-form textarea:focus{
-  box-shadow: 0 5px 20px 0px rgba(124, 250, 66, 0.3);
-}
-.btn-send{
-  margin: 30px 0!important;
-  padding: 0 20px;
-  min-width: 160px;
-  height: 42px;
-  background-color: var(--first-color);
-  outline: none !important;
-  border-radius: 21px;
-  color: #fff;
-  line-height: 1.2;
-  text-transform: uppercase;
-  border: none;
-  transition: all 0.4s ease-in-out;
-  box-shadow: 0 10px 30px 0px rgba(124, 212, 89, 0.5);
- 
-}
-.btn-send:hover{
-  background-color: #000;
-}
-.call-all{
-  margin-top:50px ;
-  color: #aaa;
-}
-
-@media(max-width:991px){
-  .contact-form{
-    padding: 20px;
-  }
-}
-@media(max-width:768px){
-  .contact-form input,.contact-form textarea{
-    width: 100%;
-  }
-}
-
-.section-align {
-  justify-content: center;
-} */
 

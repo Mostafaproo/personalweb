@@ -142,18 +142,16 @@ video {
 /* ENd NavBar */
 
 /* Start  Slider  */
-
+.carousel-inner {
+  height: 100vh;
+}
 .carousel-inner video {
   width: 100%;
-  height: auto;
+  height: 100%;
   /* max-height: 500px; */
 }
 
 @media (max-width:876px) {
-  .slider {
-    height: auto;
-  }
-
   .carousel-inner video {
     height: 100vh !important;
   }
@@ -163,7 +161,7 @@ video {
 
 /* Start Footer */
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   right: 0;
   left: 0;

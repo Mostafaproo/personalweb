@@ -27,10 +27,9 @@ body {
 }
 
 .wrapping {
-  background: url(../img/Background.jpg)  no-repeat ;
-  background-size: cover ;
-  background-position-x: center;
-  font-family: 'Lato';
+  background: url(../img/6.jpeg)  fixed no-repeat ;
+  background-size: cover;
+  /* min-height: 600px; */
 }
 
 /* Start Top Header Style */

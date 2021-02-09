@@ -14,7 +14,7 @@
 .form-contact {
   margin-top: 100px;
   position: relative;
-  max-width: 85%;
+  max-width: 75%;
 }
 
 .form-contact label {
@@ -90,7 +90,17 @@ textarea:focus {
 /* End About Contact Us */
 
 
-.blur {
+.blur-1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 20%;
+  background-color: #000;
+  opacity: .7;
+  border-radius: 5px;
+}
+.blur-2 {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -100,6 +110,7 @@ textarea:focus {
   opacity: .7;
   border-radius: 5px;
 }
+
 
 .main-form {
   z-index: 222;

@@ -27,15 +27,15 @@
   <div class="top-header">
     <div class="container">
       <div class="row reset">
-        <div class="col-xs-6">
+        <div class="col-sm-6">
           <div class="phone">
             <i class="fa fa-phone-square"> <a href="tel:+0201012370014"> +0201012370014</a> </i>
-          </div>
-        </div>
-        <div class="col-xs-6">
-          <div class="email">
             <i class="fa fa-envelope"><a href="mailto:info@paymac.net"> info@paymac.net</a></i>
           </div>
+        </div>
+        <div class="col-sm-6 text-right">
+          <i class="fa fa-language"><a href="#"> En</a></i>
+          <!-- there is not code  -->
         </div>
       </div>
     </div>
@@ -167,6 +167,9 @@
   <script src="./js/jquery-3.4.0.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="./js/main.js"></script>
+  <script>
+    $('.nav-item a[href*="index"]').addClass('active');
+  </script>
 </body>
 
 </html>

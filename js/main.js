@@ -1,5 +1,6 @@
 $(document).ready(function(){
   'use strict';
+  
   $(document).on('click','.nav-item',function(){
     $(this).addClass('active').siblings().removeClass();
   })
@@ -45,6 +46,14 @@ window.onload=function(){
   document.getElementById("my_audio").play();
 
 }
+
+// Add Active Class on Navbar
+$('.navbar-nav li .nav-item').click(function () {
+  $('.navbar-nav li .nav-item').siblings().removeClass('active');
+  $(this).addClass('active');
+
+  // $(this).addClass('active').parent().siblings().find('a').removeClass('active')
+})
 
 
 $('.owl-carousel').owlCarousel({

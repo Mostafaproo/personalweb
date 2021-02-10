@@ -24,7 +24,7 @@ body {
 }
 
 .wrapping {
-  background: url(../img/Background.jpg) center no-repeat;
+  background: url(../img/Background.jpg) fixed no-repeat;
   background-size: cover;
 }
 

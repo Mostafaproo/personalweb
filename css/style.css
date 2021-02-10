@@ -19,17 +19,13 @@ ul {
 }
 
 body {
-  /* background: url(../img/Background.jpg) fixed;
-    background-size: cover !important;
-    background-repeat: no-repeat; */
   font-family: 'Lato';
   box-sizing: border-box;
 }
 
 .wrapping {
-  background: url(../img/6.jpeg)  fixed no-repeat ;
+  background: url(../img/Background.jpg) center no-repeat;
   background-size: cover;
-  /* min-height: 600px; */
 }
 
 /* Start Top Header Style */
@@ -40,9 +36,6 @@ body {
   font-size: 15px;
   font-weight: bold;
   height: 51px;
-  /* justify-content: center;
-  display: flex;
-  align-items: center; */
 }
 
 .top-header a {
